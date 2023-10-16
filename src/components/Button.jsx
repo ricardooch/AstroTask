@@ -5,7 +5,6 @@ const Button = (props) => {
 
   return (
     <button className={buttonClasses} type="submit">
-      {props.texto}
     </button>
   );
 }
